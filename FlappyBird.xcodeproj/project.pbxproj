@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E823226322813A1900BCCC23 /* backmusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E823226222813A1900BCCC23 /* backmusic.mp3 */; };
+		E82322652281442000BCCC23 /* getPointSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E82322642281442000BCCC23 /* getPointSound.mp3 */; };
+		E82322672281442D00BCCC23 /* missedSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E82322662281442D00BCCC23 /* missedSound.mp3 */; };
 		E84263AD226EA930004517E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84263AC226EA930004517E8 /* AppDelegate.swift */; };
 		E84263AF226EA930004517E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84263AE226EA930004517E8 /* ViewController.swift */; };
 		E84263B2226EA930004517E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E84263B0226EA930004517E8 /* Main.storyboard */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E823226222813A1900BCCC23 /* backmusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = backmusic.mp3; sourceTree = "<group>"; };
+		E82322642281442000BCCC23 /* getPointSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = getPointSound.mp3; sourceTree = "<group>"; };
+		E82322662281442D00BCCC23 /* missedSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = missedSound.mp3; sourceTree = "<group>"; };
 		E84263A9226EA930004517E8 /* FlappyBird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlappyBird.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E84263AC226EA930004517E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E84263AE226EA930004517E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -61,6 +67,9 @@
 				E84263BE226EACE4004517E8 /* GameScene.swift */,
 				E84263B0226EA930004517E8 /* Main.storyboard */,
 				E84263B3226EA932004517E8 /* Assets.xcassets */,
+				E823226222813A1900BCCC23 /* backmusic.mp3 */,
+				E82322642281442000BCCC23 /* getPointSound.mp3 */,
+				E82322662281442D00BCCC23 /* missedSound.mp3 */,
 				E84263B5226EA932004517E8 /* LaunchScreen.storyboard */,
 				E84263B8226EA932004517E8 /* Info.plist */,
 			);
@@ -126,7 +135,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E84263B7226EA932004517E8 /* LaunchScreen.storyboard in Resources */,
+				E823226322813A1900BCCC23 /* backmusic.mp3 in Resources */,
 				E84263B4226EA932004517E8 /* Assets.xcassets in Resources */,
+				E82322672281442D00BCCC23 /* missedSound.mp3 in Resources */,
+				E82322652281442000BCCC23 /* getPointSound.mp3 in Resources */,
 				E84263B2226EA930004517E8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
