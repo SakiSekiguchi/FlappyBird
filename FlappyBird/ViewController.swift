@@ -30,6 +30,8 @@ class ViewController: UIViewController {
         // ビューにシーンを表示する
         skView.presentScene(scene)
         
+        //skView.showsPhysics = true
+        
     }
     
     // ステータスバーを消す
